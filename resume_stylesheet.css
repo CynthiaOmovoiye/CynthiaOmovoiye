@@ -1,0 +1,41 @@
+body{
+	
+	font-family:helvetica arial san-serif;
+}
+.contact-container{
+}
+.skills-container{
+}
+
+section{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 20px;
+	padding: 24px 0;
+	border-bottom: 1px solid lightgray;
+}
+section:last-child{
+	border-bottom: none
+}
+.sec-title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.my-name{
+	font-size: 30px;
+	line-height: 1;
+}
+.my-title{
+	font-size: 20px;
+	font-weight: 25px;
+	color: lightblue;
+	margin: 10px 0 20px 0;
+
+}
+.education-container{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
