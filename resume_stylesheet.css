@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body{
 	
-	font-family:helvetica arial san-serif;
+	font-family:montserrat;
 }
 .contact-container{
 }
@@ -38,4 +39,52 @@ section:last-child{
 	margin-bottom: 20px;
 	font-size: 14px;
 	font-weight: bold;
+}
+.contact-me{
+	text-align: center;
+	background: linear-gradient(rgba(0,0,150,0),rgba(0,0,50,0.5)), url(office.jpg);
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+	transition: all 4s ease-in-out;
+
+
+}
+.contact-me h1{
+	text-transform: uppercase;
+	font-size:20px;
+
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color:#fff;
+	font-size: 12px;
+	margin-bottom: 1px;
+
+}
+input{
+	height: 45px;
+}
+.form-control_submit{
+	background: purple;
+	border-color: transparent;
+	color:#fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	height: 50px;
+	margin-top: 20px;
+}
+.form-control_submit:hover{
+	background-color: purple;
+	cursor: pointer;
+	opacity: .8;
+
 }
