@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div class="container">
-<section>
+<section id="section">
 	<div class= "image">
 <img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_83,w_111/v1566559989/CynthiaOmovoiye/DSC_4822_copy1_le1hvq.jpg">
 </div>
@@ -21,7 +21,7 @@
 		</p></h4>
 </div>
 </section>
-<section>
+<section id="section">
 	<div class="sec-title">Skills</div>
 	<div class="skills-container">
 		<p>
@@ -30,7 +30,7 @@
 		 Microsoft Office (Word, Excel)</p>
 </div>
 </section>
-<section>
+<section id="section">
 	<div class= "sec-title">Education</div>
 	<div class= "education-container">
 			<div>Delta State University, Abraka - B.A.<br>
@@ -40,5 +40,39 @@
 	</div>
 </div>
 </section>
+<section>
+	<div class="contact-me"><h1> Contact Me</h1>
+	<div class="contact-form">
+		<form onsubmit="validation()" id="contact-form" method="post" action="#" >
+			<input id="title" type="title" name="Contact" class="form-control" placeholder="Title" required><br>
+			<input id= "your-name" type="text" name="Contact" class="form-control" placeholder="Your Name" required><br>
+			<input id="email" type="email" name="Contact" class="form-control" placeholder="Your Email" required><br>
+			<textarea id="your-message" name="Message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
+		<div id="eresult"></div>
+	</div>
+</div>
+</section>
+<script type="text/javascript">
+	function validation() {
+			var user_name = document.getElementById("your-name").value;
+			var user_message = document.getElementById("your-message").value;
+
+			if (user_name.length < 4) {
+				alert("Name must be at least 4 characters long");
+				return false;
+			} else if (user_message.length < 20) {
+				alert("Message must be at least 20 characters long");
+				return false;
+			}
+			else{
+				return true;
+
+			}
+				
+		}
+</script>
 </body>
 </html>
