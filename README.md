@@ -4,7 +4,7 @@
 
 # Cynthia Omovoiye
 
-AI Engineer building practical LLM systems with stronger memory, cleaner retrieval, better source boundaries, and safer agent behavior.
+AI Engineer building practical LLM systems with stronger memory, cleaner retrieval, better source boundaries, and safer agent behavior. Currently building [Recall Lab](https://github.com/CynthiaOmovoiye/recall-lab), a research repo for testing memory strategies in long-running LLM agents.
 
 I have 5+ years of software engineering experience across backend, frontend, mobile, and technical leadership. My current work sits at the edge of AI engineering and cognitive architecture: RAG, agent workflows, memory systems, hallucination restraint, context engineering, and evals.
 
@@ -12,6 +12,7 @@ My first degree is in History and International Studies. That lens still shows u
 
 <p>
   <a href="https://cynthia-omovoiye-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/CynthiaOmovoiye/recall-lab"><img src="https://img.shields.io/badge/Recall_Lab-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Recall Lab" /></a>
   <a href="https://www.linkedin.com/in/cynthia-omovoiye-469568184/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:omovoiye@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -28,19 +29,36 @@ Tool boundaries        Source grounding        Practical LLM products
 
 | Project | What it proves |
 |---|---|
+| [Recall Lab](https://github.com/CynthiaOmovoiye/recall-lab) | Research repo testing whether selective forgetting improves long-running agent coherence. |
 | [DocBase](https://github.com/CynthiaOmovoiye/docubase) | Engineering memory layer for repos, portfolios, resumes, and grounded AI twins. |
 | [Scaffold](https://github.com/CynthiaOmovoiye/scaffold_proj) | AI SDLC intelligence for turning project discovery into BRDs, PRDs, specs, and tasks. |
 | [Meridian Support Bot](https://github.com/CynthiaOmovoiye/meridian-support-bot) | Customer support agent with RAG, policy boundaries, authenticated workflows, and guardrails. |
 | [LLM Benchmark Dashboard](https://github.com/CynthiaOmovoiye/llm-benchmark-dashboard) | Evaluation surface for comparing model behavior, latency, cost, and output quality. |
-| [Curiosity Break MCP](https://github.com/CynthiaOmovoiye/curiosity-break-mcp) | MCP experiment for tool-connected AI workflows. |
 
-## Research Direction
+## Recall Lab
 
-I am exploring one practical question:
+My main research repo is [Recall Lab](https://github.com/CynthiaOmovoiye/recall-lab).
+
+It asks one practical question:
 
 > How do we build LLM systems that remember the right things, forget noise, admit uncertainty, and stay grounded over long interactions?
 
-This work is becoming a small research track around structured cognitive memory for LLM systems:
+The working hypothesis:
+
+> Coherence over hundreds of turns may depend more on selective forgetting than larger context windows.
+
+The experiment compares memory strategies across long conversations:
+
+| Agent | Memory strategy |
+|---|---|
+| Sliding window agent | Keeps only the latest turns. |
+| Vector retrieval agent | Retrieves semantically similar past turns. |
+| Consolidated memory agent | Reads a living memory brief before each response. |
+| Sleep job agent | Scores salience, compresses high-salience events, and keeps low-salience noise out of the prompt. |
+
+The evaluation tracks recall accuracy, token cost, hallucination rate, failure modes, and whether the agent admits uncertainty.
+
+This is part of a broader research track around structured cognitive memory for LLM systems:
 
 | Layer | Engineering role |
 |---|---|
