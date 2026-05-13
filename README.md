@@ -96,12 +96,12 @@ This is part of a broader research track around structured cognitive memory for 
 - Context engineering decides what enters the model now.
 - Memory engineering decides what remains available later.
 
-## GitHub Snapshot
+## Profile Signals
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=CynthiaOmovoiye&show_icons=true&theme=tokyonight&hide_border=true" alt="Cynthia's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CynthiaOmovoiye&layout=compact&theme=tokyonight&hide_border=true" alt="Cynthia's top languages" height="165" />
-</p>
+- 50+ public repositories across AI engineering, web systems, data projects, and product experiments.
+- Pinned work points toward memory systems, agent workflows, RAG, evals, MCP, and applied LLM products.
+- Current research thread: [Recall Lab](https://github.com/CynthiaOmovoiye/recall-lab), a practical experiment in long-running agent memory.
+- Portfolio: [cynthia-omovoiye-portfolio.netlify.app](https://cynthia-omovoiye-portfolio.netlify.app/)
 
 ## Open To
 
