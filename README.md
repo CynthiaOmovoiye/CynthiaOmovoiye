@@ -32,7 +32,6 @@ Tool boundaries        Source grounding        Practical LLM products
 | Project | What it proves |
 |---|---|
 | [Recall Lab](https://github.com/CynthiaOmovoiye/recall-lab) | Research repo testing whether selective forgetting improves long-running agent coherence. |
-| [Scaffold](https://github.com/CynthiaOmovoiye/scaffold_proj) | AI SDLC intelligence for turning project discovery into BRDs, PRDs, specs, and tasks. |
 | [Meridian Support Bot](https://github.com/CynthiaOmovoiye/meridian-support-bot) | Customer support agent with RAG, policy boundaries, authenticated workflows, and guardrails. |
 | [LLM Benchmark Dashboard](https://github.com/CynthiaOmovoiye/llm-benchmark-dashboard) | Evaluation surface for comparing model behavior, latency, cost, and output quality. |
 
